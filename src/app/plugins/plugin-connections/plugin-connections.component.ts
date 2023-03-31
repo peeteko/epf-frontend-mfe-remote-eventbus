@@ -9,6 +9,8 @@ import { PluginService } from '../services/plugin-service.service';
 })
 export class PluginConnectionsComponent implements OnInit{
 
+  assetUrl = __webpack_public_path__;
+
   public connectionSateEnum = ConnectionState;
   public platformDomainText = PlatformDomainText;
 
