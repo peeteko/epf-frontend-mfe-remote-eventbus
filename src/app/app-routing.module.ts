@@ -5,7 +5,7 @@ import { HomeComponent } from './home/home.component';
 
 
 const routes: Routes = [
-  { path: 'plugins', loadChildren: () => import('./plugins-home/plugins-home.module').then(m => m.PluginsHomeModule) },
+  { path: 'plugins', loadChildren: () => import('./plugins/plugins-home/plugins-home.module').then(m => m.PluginsHomeModule) },
   { path: '', component: HomeComponent, pathMatch: 'full' }
 ];
 

@@ -37,7 +37,7 @@ module.exports = {
         name: "mfeEpfPlugins",
         filename: "remoteEntry.js",
         exposes: {
-          './Module': './src/app/plugins-home/plugins-home.module.ts',
+          './Module': './src/app/plugins/plugins-home/plugins-home.module.ts',
         },
         
         // For hosts (please adjust)
