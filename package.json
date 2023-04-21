@@ -4,6 +4,7 @@
   "scripts": {
     "ng": "ng",
     "ng:generate" : "ng generate",
+    "ng:generateInterceptor" : "ng generate interceptor jwtToken",
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
